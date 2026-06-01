@@ -2,7 +2,7 @@
 
 Neuroforger is a tool for generating certified violation witnesses for Solidity smart contract properties. Given a contract and a property written in GATE (a Foundry-based specification language with abstract types), it uses an LLM to produce a concretization of the abstract variables that makes the test pass — i.e., a counterexample that proves that the property is violated. The counterexample is then validated via type checking (manual, in the current version) and concrete execution with Forge.
 
-For a full description of the approach, see the paper *"Neuroforger: certified violation witnesses for smart contracts verification via LLMs"*.
+For a full description of the approach, see the paper *"[Neuroforger: certified violation witnesses for smart contracts verification via LLMs](https://arxiv.org/abs/2605.31389)"*.
 
 ## Requirements
 
